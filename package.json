@@ -1,0 +1,14 @@
+{
+  "name": "my-vercel-app",
+  "version": "1.0.0",
+  "description": "مشروعي على Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "vercel-build": "echo 'No build step needed'"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase-admin": "^11.11.1"
+  }
+}
